@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "TNR-condensed";
+    src: url("/assets/TNR-MT-Condensed-Regular-font/");
+}
+
+.logo {
+    height: 75px;
+    object-fit: fill;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: none;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/assets/ai-fixed-2.jpg);
+    background-size: 100%;
+}
+
+.navbar a:focus,
+.navbar a:hover,
+.navbar .btn:focus {
+    box-shadow: none;
+    background: rgba(255, 255, 255, .5);
+    text-decoration: none;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+    font-size: 16px;
+    color: #59372F;
+    text-align: right;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.navbar nav {
+    margin: 10px;
+
+}
+
+.profile-pic {
+    height: 400px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.aboutme-text {
+    width: 50%;
+}
+
+h1 {
+    font-family: "TNR-condensed";
+    font-style: italic;
+    color: #59372F;
+}

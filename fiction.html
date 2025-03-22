@@ -8,6 +8,13 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .checked {
+            color: orange;
+        }
+    </style>
     <link rel="stylesheet" href="books.css">
     <title>About Me</title>
 </head>
@@ -16,8 +23,8 @@
     <div class="navbar">
         <img class="logo" alt="Purple font logo for Post Grad Pages" src="/assets/pgp-transparent-solid-brown.png" />
         <nav>
-            <a href="#home">home</a>
-            <a href="#about me">about me</a>
+            <a href="/index.html">home</a>
+            <a href="/aboutme.html">about me</a>
         </nav>
 
         <div class="dropdown show">
@@ -26,8 +33,8 @@
                 books
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">fiction</a>
-                <a class="dropdown-item" href="#">nonfiction</a>
+                <a class="dropdown-item" href="/fiction.html">fiction</a>
+                <a class="dropdown-item" href="/nonfiction.html">nonfiction</a>
             </div>
         </div>
 
@@ -35,14 +42,21 @@
     </div>
 
     <div>
-        <h1>Fiction Books</h1>
+        <h1>
+            <img alt=Fiction Books src="/assets/fiction-transparent-solid-brown.png">
+        </h1>
     </div>
     <section class="book-section">
         <div>
             <img class="book-cover" alt="Book cover for Lessons in Chemistry" src="/assets/lessons-in-chem.jpg">
         </div>
         <div class="book-text">
-            <h2>Lessons in Chemistry by Bonnie Garmus (4.5/5)</h2>
+            <h2><span>Lessons in Chemistry</span> by Bonnie Garmus (2022)</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
             <p>I loved this book! Elizabeth Zott was not your average 1960's woman. She was a brilliant chemist who was
                 acutely aware of and intolerant of the rampant sexism in her workplace but did not let that stop her
                 from
@@ -63,7 +77,12 @@
             <img class="book-cover" alt="Book cover for The Midnight Library" src="/assets/midnight-library.jpg">
         </div>
         <div class="book-text">
-            <h2>The Midnight Library by Matt Haig (3/5)</h2>
+            <h2><span>The Midnight Library</span> by Matt Haig (2020)</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
             <p>This book had a very interesting premise. Between life and death there is a library. When Nora finds
                 herself
                 in the Midnight Library, she has a chance to make things right. Up until this point, her life has been
@@ -83,46 +102,267 @@
 
     <section class="book-section">
         <div>
-            <img class="book-cover" alt="Book cover for Lessons in Chemistry" src="/assets/lessons-in-chem.jpg">
+            <img class="book-cover" alt="Book cover for The Lion Women of Tehran" src="/assets/Lion-women.jpg">
         </div>
         <div class="book-text">
-            <h2>Lessons in Chemistry by Bonnie Garmus (4.5/5)</h2>
-            <p>I loved this book! Elizabeth Zott was not your average 1960's woman. She was a brilliant chemist who was
-                acutely aware of and intolerant of the rampant sexism in her workplace but did not let that stop her
-                from
-                working toward her goals. It was fascinating but also infuriating being engrossed in her perspective and
-                feeling what she went through as a woman during that time period. She dared other women to change the
-                status
-                quo. The book also made me reflect on the treatment of women today in American society and draw
-                parallels
-                between then and now. I highly recommed this book. Bonus: AppleTV also made it into a show which I
-                recently
-                started. (Trigger warning: Both the book and show include scenes of sexual assault.) </p>
+            <h2><span>The Lion Women of Tehran</span> by Marjan Kamali (2024)</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p>This was a heartfelt novel of friendship, betrayal, and redemption set against three transformative
+                decades in Tehran, Iran. I had never read a book set in Iran and it was fascinating to learn what living
+                there as a woman was like in the 1950's amid political turmoil. Although this is fiction, the author
+                spent some of her childhood in Iran during a pivitol time in its history and drew on her own
+                experiences with a friendship she had growing up. I loved this book because of the beautiful
+                descriptions
+                of the Iranian setting, foods, and lifestyle in the book. It was a moving story and
+                extremely well-written with characters I came to love!</p>
         </div>
 
         <div>
     </section>
     <section class="book-section">
         <div>
-            <img class="book-cover" alt="Book cover for Lessons in Chemistry" src="/assets/lessons-in-chem.jpg">
+            <img class="book-cover" alt="Book cover for Malibu Rising" src="/assets/Malibu-rising.jpg">
         </div>
         <div class="book-text">
-            <h2>Lessons in Chemistry by Bonnie Garmus (4.5/5)</h2>
-            <p>I loved this book! Elizabeth Zott was not your average 1960's woman. She was a brilliant chemist who was
-                acutely aware of and intolerant of the rampant sexism in her workplace but did not let that stop her
-                from
-                working toward her goals. It was fascinating but also infuriating being engrossed in her perspective and
-                feeling what she went through as a woman during that time period. She dared other women to change the
-                status
-                quo. The book also made me reflect on the treatment of women today in American society and draw
-                parallels
-                between then and now. I highly recommed this book. Bonus: AppleTV also made it into a show which I
-                recently
-                started. (Trigger warning: Both the book and show include scenes of sexual assault.) </p>
+            <h2><span>Malibu Rising</span> by Taylor Jenkins Reid (2021)</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>This was an exciting, quick read that transports you to the lives of 4 famous celebrity siblings. They
+                throw an epic party to celebrate the end of the summer.
+                But over the course of 24 hours, their lives change dramatically. This book was a purely "for
+                fun" read, and it truly was a fun read imagining the lives of celebrities!</p>
         </div>
 
         <div>
     </section>
+
+    <div>
+        </section>
+        <section class="book-section">
+            <div>
+                <img class="book-cover" alt="Book cover for Eleanor Oliphant is Completely Fine"
+                    src="/assets/Eleanor-oliphant.jpg">
+            </div>
+            <div class="book-text">
+                <h2><span>Eleanor Oliphant is Completely Fine</span> by Gail Honeyman (2017)</h2>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-o"></span>
+                <span class="fa fa-star"></span>
+                <p>Meet Eleanor Oliphant: She is socially awkward and says out loud exactly what she is thinking. Her
+                    life has been the same for decades, mundane office work and then solitary weekends spent only with
+                    frozen pizza,
+                    vodka, and bitter phone chats with Mummy.
+
+                    But everything changes when Eleanor meets Raymond, the unattractive, unhygienic IT guy from her
+                    office. They rescue one another from the lives of isolation and Raymond helps heal her deep
+                    emotional
+                    wounds from her past. I thought this story was simultaneously strange and charming. The author
+                    enables you to
+                    really feel what Eleanor felt and see from her unique perspective. This book helped me remember that
+                    everyone is dealing with their own internal struggles and past experiences that makes them who they
+                    are.</p>
+            </div>
+
+            <div>
+        </section>
+
+        <div>
+            </section>
+            <section class="book-section">
+                <div>
+                    <img class="book-cover" alt="Book cover for Pineapple Street" src="/assets/Pineapple-street.jpg">
+                </div>
+                <div class="book-text">
+                    <h2><span>Pineapple Street</span> by Jenny Jackson (2023)</h2>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-o"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Step into the shoes of a wealthy, well-connected Brooklyn Heights family. Darley, the oldest
+                        daughter, followed her heart,
+                        trading her career and her inheritance for motherhood;
+                        Sasha, a middle-class girl, married into the family and finds
+                        herself cast as an outsider; and Georgiana, the youngest, has fallen in
+                        love with someone she can’t have and must decide what kind of person she wants to be. Pineapple
+                        Street is an enjoyable, escapist novel about the peculiar unknowability of someone else’s
+                        family, the miles between the haves and have-nots, and the craziness of family and love.</p>
+                </div>
+
+                <div>
+            </section>
+
+            <div>
+                </section>
+                <section class="book-section">
+                    <div>
+                        <img class="book-cover" alt="Book cover for The Secret Life of Bees" src="/assets/Bees.jpg">
+                    </div>
+                    <div class="book-text">
+                        <h2><span>The Secret Life of Bees</span> by Sue Monk Kidd (2001)</h2>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Set in South Carolina in 1964, this book tells the story of Lily Owens, who escapes her
+                            abusive father along with her fierce-hearted black "stand-in mother," Rosaleen. They are
+                            taken in by an eccentric trio of black beekeeping sisters. I liked the female power and
+                            resistance
+                            presented in this story. It wasn't my top favorite book of the year but it was fun to read
+                            and then watch the movie after. </p>
+                    </div>
+
+                    <div>
+                </section>
+
+                <div>
+                    </section>
+                    <section class="book-section">
+                        <div>
+                            <img class="book-cover" alt="Book cover for It Ends with Us and It Starts with Us"
+                                src="/assets/hoover-books.jpg">
+                        </div>
+                        <div class="book-text">
+                            <h2><span>It Ends with Us/It Starts with Us</span> by Colleen Hoover (2016/2022)</h2>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <p>I know there is a lot of controversy with the movie and the Blake/Justin drama but these
+                                books were so good in my opinion. They were emotional, deep, and page turners that
+                                always left me wanting to read more. I loved how the relationships developed and seeing
+                                Lily, the main character, take steps to get out of her abusive relationship and find
+                                something
+                                better for her and her daughter. For the record, I did love the movie too and can't wait
+                                for the next one.</p>
+                        </div>
+
+                        <div>
+                    </section>
+
+                    <div>
+                        </section>
+                        <section class="book-section">
+                            <div>
+                                <img class="book-cover" alt="Book cover for The Alchemist" src="/assets/Alchemist.jpg">
+                            </div>
+                            <div class="book-text">
+                                <h2><span>The Alchemist</span> by Paulo Coelho</h2>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                                <p>I found this book at a thrift store and thought the cover was really beautiful. I had
+                                    heard of this book and knew it was a classic so I gave it a shot. I was actually
+                                    pretty bored of it and kept thinking it would get better. Yes, I think there were
+                                    some little lessons in it but the story just wasn't captivating to me which is why I
+                                    rated it low. Not a deep, meaningful review I realize but oh well.</p>
+                            </div>
+
+                            <div>
+                        </section>
+
+                        <div>
+                            </section>
+                            <section class="book-section">
+                                <div>
+                                    <img class="book-cover" alt="Book cover for A Touch of Darkness"
+                                        src="/assets/touch-of-darkness.jpg">
+                                </div>
+                                <div class="book-text">
+                                    <h2><span>A Touch of Darkness</span> by Scarlett St. Clair (2020)</h2>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <p>I read this as part of a book club and was kind of annoyed by it the whole time.
+                                        I listened part of the time and read other parts. The narrator's various voices
+                                        for different characters made it seem like I was reading a teen fantasy book
+                                        which is not my vibe. I couldn't really take it seriously and didn't feel like
+                                        this book was worth my time. I do understand why my friends in book club loved
+                                        it, though. The romance and the story with greek mythology figures in modern
+                                        times in
+                                        college was a kind of fun and
+                                        interesting take but it just wasn't totally for me!</p>
+                                </div>
+
+                                <div>
+                            </section>
+
+                            <div>
+                                </section>
+                                <section class="book-section">
+                                    <div>
+                                        <img class="book-cover" alt="Book cover for A Court of Thorns and Roses"
+                                            src="/assets/acotar.jpg">
+                                    </div>
+                                    <div class="book-text">
+                                        <h2><span>A Court of Thorns and Roses, 1</span> by Sarah J. Maas (2015)</h2>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star "></span>
+                                        <span class="fa fa-star"></span>
+                                        <p>This was my first shot at fantasy romance. And I could not get past the
+                                            faeries with wings and their pointy ears. I honestly tried. I even tried
+                                            reading the second book as well. It is so incredibly popular and I was told
+                                            so many
+                                            times to
+                                            read this book and to push through it. But I actually am pretty sensitive to
+                                            violence and gore and there was a little too much descriptive violence in it
+                                            to the point where it gave me bad dreams. I'm a sensitive little muffin. So
+                                            I don't think I can read ACOTAR further. I do agree, however, that the story
+                                            overall is quite good, complex, and deep so I understand the hype...(but why
+                                            must it have fairies?)
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                </section>
+
+
+                                <div>
+                                    </section>
+                                    <section class="book-section">
+                                        <div>
+                                            <img class="book-cover" alt="Book cover for The Hating Game"
+                                                src="/assets/hating-game.jpg">
+                                        </div>
+                                        <div class="book-text">
+                                            <h2><span>The Hating Game</span> by Sally Thorne (2016)</h2>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star-half-o"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>Another book club book that I wasn't a big fan of! I don't think it was
+                                                written very well. And I'm actually pretty bothered by the workplace
+                                                sexual
+                                                harrassment and condescension that the main character put up with. Those
+                                                parts were frustrating to read. I expected her to push back more but she
+                                                didn't very often. I
+                                                read almost all of it until I found out there was a movie. That shows
+                                                how captivating I thought it was. Turns out the movie wasn't that much
+                                                better in my opinion. I'm learning that I'm very into a good fiction
+                                                romance
+                                                novel but there are definitely better ones out there.</p>
+                                        </div>
+
+                                        <div>
+                                    </section>
 </body>
 
 </html>

@@ -22,8 +22,14 @@
     background-color: none;
     display: flex;
     justify-content: flex-start;
-    background-image: url(/assets/ai-fixed-2.jpg);
+    background-image: url("/assets/ai-fixed-2.jpg");
+    background-color: #cccccc;
     background-size: cover;
+    background-position: center;
+    /* Center the background image */
+    background-attachment: fixed;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a:focus,
@@ -42,22 +48,29 @@
     text-align: right;
     padding: 2px 10px;
     text-decoration: none;
+    border-radius: .25rem;
 }
 
 .navbar nav {
     margin: 10px;
 }
 
+.dropdown-menu {
+    background: rgba(255, 255, 255, 0.712);
+    border: none;
+    min-width: 100px;
+}
+
 h1 {
-    font-family: "TNR-condensed";
-    font-style: italic;
     margin-top: 40px;
     margin-left: 30px;
-    font-weight: bold;
 }
 
 h2 {
     font-family: "TNR-condensed";
+}
+
+h2 span {
     font-style: italic;
 }
 

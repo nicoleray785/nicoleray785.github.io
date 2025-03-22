@@ -22,15 +22,21 @@
     background-color: none;
     display: flex;
     justify-content: flex-start;
-    background-image: url(/assets/ai-fixed-2.jpg);
-    background-size: 100%;
+    background-image: url("/assets/ai-fixed-2.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    /* Center the background image */
+    background-attachment: fixed;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a:focus,
 .navbar a:hover,
 .navbar .btn:focus {
     box-shadow: none;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, 0.712);
     text-decoration: none;
 
 }
@@ -42,17 +48,25 @@
     text-align: right;
     padding: 2px 10px;
     text-decoration: none;
+    border-radius: .25rem;
 }
 
 .navbar nav {
     margin: 10px;
+}
 
+.dropdown-menu {
+    background: rgba(255, 255, 255, 0.712);
+    border: none;
+    min-width: 100px;
 }
 
 .profile-pic {
     height: 400px;
     border-radius: 100%;
     display: flex;
+    position: sticky;
+    top: 165px;
 }
 
 .aboutme {
@@ -64,10 +78,9 @@
 
 .aboutme-text {
     width: 50%;
+    margin-bottom: 50px;
 }
 
 h1 {
-    font-family: "TNR-condensed";
-    font-style: italic;
-    color: #59372F;
+    margin-top: 20px;
 }
